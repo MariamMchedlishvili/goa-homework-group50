@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+}
+
+header {
+    width:1166px;
+    height:49px;
+    padding:20px, 50px;
+    color:#2F3A3B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    position: absolute;
+    width:108;
+    height:48;
+    top:50px;
+    left:595px;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    
+}
+
+nav img {
+    width:116px;
+    position: absolute;
+    top:50px;
+    left:117px
+}
+
+button {
+    background-color: #4CAF4F;
+    border-color:#4CAF4F;
+    font-size:14px;
+    color:white;
+    border-bottom: #4CAF4F;
+    position:absolute;
+    left:1050px;
+    width:160px;
+    height:45px;
+    top:40px;
+    border-radius: 5px;
+}
+
+.hero h1{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    position:absolute;
+    top:200px;
+}
