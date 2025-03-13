@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+
+}
+
+header {
+    width:1166px;
+    height:49px;
+    padding:20px, 50px;
+    color:#2F3A3B;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black;
+
+}
+
+nav ul {
+    position: absolute;
+    width:108;
+    height:48;
+    top:50px;
+    left:492px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+img {
+    width:116px;
+    position: absolute;
+    top:36px;
+    left:117px
+
+}
+
+.sign {
+    position:absolute;
+    top:48px;
+    left:1119px;
+
+}
+
+#in {
+    font-size: 19px;
+    color:#494949;
+
+}
+
+
