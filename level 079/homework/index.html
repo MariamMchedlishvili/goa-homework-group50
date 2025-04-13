@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slider</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blueviolet;
+        }
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+        .imgcontainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            height: 50px;
+            width: 150px;
+            background-color: aqua;
+            color: green;
+            font-size: 22px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>This is a Photo Slider Page</b></h1>
+    <h2>Here you can see some of my favorite movies from Marvel</h2>
+
+    <div class="imgcontainer">
+        <img src="first.jpg" width="350" height="500" id="img1"> 
+    </div>
+
+    <div class="btn-container">
+        <button onclick="slideFunc()"><b>Click it!</b></button>
+    </div>
+
+    <script>
+        let index = 0;
+        let images = [
+            "first.jpg",
+            "second.jpg",
+            "third.jpg"
+        ];
+
+        function slideFunc() {
+            index = (index + 1) % images.length;
+            document.getElementById("img1").src = images[index];
+        }
+    </script>
+</body>
+</html>

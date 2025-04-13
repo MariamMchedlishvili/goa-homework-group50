@@ -19,3 +19,8 @@ div.appendChild(childDiv1);
 div.appendChild(childDiv2);
 body.appendChild(div);
 
+let p = document.querySelectorAll("p")
+ 
+p[0].style.color ="red"
+p[1].style.color = "blue"
+p[2].style.color = "purple"
